@@ -1,0 +1,175 @@
+:root{
+  --color-principal: rgb(0, 8, 29);
+  --color-secundario: #519fa3;
+  --color-resalte: #52e139;
+ }
+
+
+div.col-md-auto{
+  padding: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+div.align-self-center.col{
+  padding: 0;
+}
+
+.favoritos{
+  background-color: var(--color-secundario);
+  right: 0;
+  top:0;
+  width: 400;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.favoritos div{
+
+  background-color: var(--color-principal);
+  border-radius: 8px;
+}
+
+.favoritos div.container{
+  border-style: solid;
+  border-color: var(--color-resalte);
+  border-width: 1.5px;
+}
+
+
+#itemfavorito{
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pie{
+  background-color: var(--color-principal);
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+hr{
+  color: var(--color-principal);
+  padding: 0;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.total.card{
+  color:white;
+  background-color: var(--color-principal);
+}
+
+p{
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
+
+img{
+  padding: 5px;
+}
+
+.encabezado{
+  height: 185px;
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+  background-color: var(--color-principal);
+  padding-top: 8px;
+}
+
+#contenido{
+  margin-top: 185px;
+  color: white;
+  background: rgb(24,12,133);
+  background: radial-gradient(circle, rgba(24,12,133,0.9251050762101716) 7%, rgba(12,7,124,0.919502835313813) 23%, rgba(34,14,133,1) 46%, rgba(22,10,75,1) 68%, rgba(11,22,122,1) 85%);
+}
+
+h1,h2,h4{
+  padding: 0px;
+  margin: 0px;
+}
+
+h3{
+  margin-top: 10px;
+}
+
+.card{
+  float: left;
+  margin: 10px;
+  border-color: var(--color-resalte);
+
+}
+
+.card Button{
+  margin-top: 8px;
+}
+
+.oculto{
+  color:transparent;
+  font-size: 1px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.pie{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#cabecera.row{
+  align-items: center;
+}
+
+/*Menu*/
+
+#navegador_menu{
+  background-color: rgb(74, 74, 74);
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px 5px black;
+
+}
+
+#navegador_menu ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navegador_menu ul li{
+  display: inline-block;
+}
+
+#navegador_menu ul li a{
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+
+#navegador_menu ul li:hover{
+  background-color: var(--color-secundario);
+}
+
+#menuSeleccionado{
+  background-color: var(--color-secundario);
+}
+
